@@ -38,7 +38,7 @@ for i in range(80, 200):
 
     try:
         driver.find_element(
-            "xpath", "//*[@id='cm_cr-pagination_bar']/ul/li[2]").click()
+            "xpath", "//*[@id='cm_cr-pagination_bar']/ul/li[2]/a").click() #Bottone per avanzamento pagina
     except:
         time.sleep(2)
         print("Esecuzione terminata")
